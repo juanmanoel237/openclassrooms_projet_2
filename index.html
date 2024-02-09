@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/responsive.css" />
     <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/search-info.css" />
   </head>
 
   <body>
@@ -38,6 +39,26 @@
           </ul>
         </nav>
       </header>
+
+      <!------------SECTION INFOS & RECHERCHES-------------->
+      <section class="search-info">
+        <form action="" class="form-search">
+          <div class="search-title">
+            <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
+            <p>En plein centre-ville ou en pleine nature</p>
+          </div>
+
+          <div class="search-input">
+            <label class="search-label" for="search"
+              ><i class="icon fa-solid fa-location-dot"></i
+            ></label>
+            <input type="text" class="input-search" value="Marseille, France" />
+            <button class="button-search" type="submit" aria-label="Rechercher">
+              Rechercher
+            </button>
+          </div>
+        </form>
+      </section>
       <main>
         <div class="hebergements-and-populaires">
           <section class="hebergements"></section>
