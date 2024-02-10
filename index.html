@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="./css/responsive.css" />
     <link rel="stylesheet" href="./css/header.css" />
     <link rel="stylesheet" href="./css/search-info.css" />
+    <link rel="stylesheet" href="./css/filters.css" />
   </head>
 
   <body>
@@ -52,7 +53,12 @@
             <label class="search-label" for="search"
               ><i class="icon fa-solid fa-location-dot"></i
             ></label>
-            <input type="text" class="input-search" value="Marseille, France" />
+            <input
+              type="text"
+              class="input-search"
+              value="Marseille, France"
+              placeholder="Rechercher"
+            />
             <button class="button-search" type="submit" aria-label="Rechercher">
               Rechercher
             </button>
@@ -62,8 +68,29 @@
           <div class="filters">
             <h2>Filtres</h2>
             <div class="group-filter">
-              <div class="filter"></div>
+              <div class="filter">
+                <i class="icon fa-solid fa-money-bill-wave"></i>
+                <h2>Économique</h2>
+              </div>
+              <div class="filter">
+                <i class="icon fa-solid fa-person"></i>
+                <h2>Familial</h2>
+              </div>
+              <div class="filter">
+                <i class="icon fa-solid fa-heart"></i>
+                <h2>Romantique</h2>
+              </div>
+              <div class="filter">
+                <i class="icon fa-solid fa-fire"></i>
+                <h2>Nos pépites</h2>
+              </div>
             </div>
+          </div>
+          <div class="info">
+            <span class="info-circle"
+              ><i class="icon fa-solid fa-info"></i
+            ></span>
+            <p>Plus de 500 logements sont disponibles dans cette ville</p>
           </div>
         </form>
       </section>

@@ -1,0 +1,51 @@
+.filters {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.group-filter {
+  display: flex;
+  gap: 5px;
+}
+
+.filter {
+  display: flex;
+  align-items: center;
+  margin: 0 0 -5px 10px;
+  border: 2px solid var(--main-bg-color);
+  border-radius: 30px;
+  padding: 0px 15px;
+  height: 45px;
+  gap: 12px;
+  cursor: pointer;
+}
+
+.filter:hover {
+  background-color: var(--main-bg-color);
+}
+
+.filter h2 {
+  line-height: 20px;
+  font-size: 16px;
+  align-items: center;
+}
+
+.filters h2 {
+  font-size: 17px;
+  line-height: 21px;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: -5px 0 5px 0;
+}
+
+.info-circle {
+  width: 20px;
+  border: 2px solid var(--main-bg-color);
+  text-align: center;
+  border-radius: 25px;
+}

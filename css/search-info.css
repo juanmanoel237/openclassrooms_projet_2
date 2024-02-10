@@ -5,11 +5,11 @@
 }
 
 .search-title h2 {
-  margin-bottom: 8px; /* Réduit la marge inférieure du titre */
+  margin-bottom: 5px;
 }
 
 .search-title p {
-  margin-top: 8px; /* Réduit la marge supérieure du paragraphe */
+  margin-top: 5px;
 }
 
 .form-search {
@@ -21,7 +21,6 @@
 .search-input {
   position: relative;
   display: flex;
-  height: 45px;
   font-size: 1.5rem;
   font-weight: 700;
 }
@@ -42,7 +41,7 @@
   font-weight: 700;
   font-size: 18px;
   line-height: 21px;
-  border: none;
+  border: 1px solid var(--main-bg-color);
 }
 
 .button-search {
