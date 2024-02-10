@@ -33,9 +33,65 @@
   .populaires-cards .card-subtitle {
     font-size: 13px;
   }
+  /************ACTIVITES************/
+  .activites-cards a .card {
+    width: 195px;
+    height: 270px;
+  }
+
+  .activites-cards a .card img {
+    width: 195px;
+    height: 270px;
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
+  }
+
+  .activites-cards h3 {
+    gap: 10px;
+    padding-left: 20px;
+  }
+
+  .foot-low {
+    width: 900px;
+    height: 160px;
+    gap: 150px;
+  }
 }
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
   /* ... */
+
+  header {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  /********************SECTION SEARCH************/
+  .search-info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .search-title h2 {
+    width: 335px;
+    height: 52px;
+  }
+
+  .search-title p {
+    width: 335px;
+    height: 19px;
+  }
+
+  .search-input {
+    width: 335px;
+  }
+
+  .search-label {
+    align-items: center;
+  }
+
+  .search-input i {
+    width: 30px;
+  }
 }
