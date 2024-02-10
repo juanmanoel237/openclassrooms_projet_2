@@ -1,0 +1,7 @@
+footer {
+  display: flex;
+  gap: 200px;
+  margin-top: 80px;
+  background-color: var(--main-bg-color);
+  padding-left: 15px;
+}
