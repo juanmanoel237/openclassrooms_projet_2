@@ -16,6 +16,7 @@
   width: 285px;
   height: 380px;
   border-radius: 20px 20px 0 0;
+  object-fit: cover;
 }
 
 .activites-cards h3 {
