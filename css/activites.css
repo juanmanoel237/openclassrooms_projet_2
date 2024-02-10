@@ -1,0 +1,24 @@
+.activites {
+  margin-top: 80px;
+}
+
+.activites-cards {
+  display: flex;
+  gap: 10px;
+}
+
+.activites-cards .card {
+  width: 285px;
+  height: 440px;
+}
+
+.activites-cards .card img {
+  width: 285px;
+  height: 380px;
+  border-radius: 20px 20px 0 0;
+}
+
+.activites-cards h3 {
+  gap: 10px;
+  padding-left: 20px;
+}
