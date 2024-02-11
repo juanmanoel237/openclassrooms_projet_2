@@ -81,6 +81,12 @@ a {
   width: 32%;
 }
 
+/*.populaires-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}*/
+
 .populaires-title {
   display: flex;
   justify-content: space-between;

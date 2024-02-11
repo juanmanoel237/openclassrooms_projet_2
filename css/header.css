@@ -7,6 +7,7 @@ header {
 
 ul {
   display: flex;
+  gap: 20px;
 }
 
 ul li {
@@ -17,4 +18,15 @@ ul li {
 header img {
   width: 61px;
   height: 19px;
+}
+
+@media (max-width: 767.98px) {
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+
+  header .logo {
+    margin: 0 auto;
+  }
 }

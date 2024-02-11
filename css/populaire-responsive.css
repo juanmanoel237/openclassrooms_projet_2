@@ -1,0 +1,17 @@
+/* Small devices (phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .populaires {
+    display: flex;
+    flex-direction: column;
+  }
+  .populaires-cards {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .populaires-cards .card {
+    width: 300%;
+  }
+}

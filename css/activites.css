@@ -39,3 +39,10 @@
     padding: 10px;
   }
 }
+
+@media (max-width: 767.98px) {
+  .activites-cards {
+    display: flex;
+    flex-direction: column;
+  }
+}
