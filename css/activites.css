@@ -1,25 +1,41 @@
-.activites {
-  margin-top: 80px;
-}
-
 .activites-cards {
   display: flex;
   gap: 10px;
 }
 
 .activites-cards .card {
-  width: 285px;
+  width: 100%;
   height: 440px;
 }
 
 .activites-cards .card img {
-  width: 285px;
+  width: 100%;
   height: 380px;
   border-radius: 20px 20px 0 0;
   object-fit: cover;
 }
 
 .activites-cards h3 {
-  gap: 10px;
-  padding-left: 20px;
+  margin: 0;
+  padding: 0 20px;
+}
+
+/**************************************/
+@media (max-width: 1024px) {
+  .activites-cards .card {
+    width: 100%;
+    height: 100%;
+    max-width: none;
+    margin-right: 0;
+  }
+
+  .activites-cards .card img {
+    width: 100%;
+    height: 60%;
+    border-radius: 20px;
+  }
+
+  .activites-cards h3 {
+    padding: 10px;
+  }
 }
