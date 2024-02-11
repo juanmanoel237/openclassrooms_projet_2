@@ -1,7 +1,3 @@
-.search-info {
-  border-style: dotted;
-}
-
 .search-title {
   display: flex;
   flex-direction: column;
@@ -23,7 +19,6 @@
 }
 
 .search-input {
-  border-style: dotted;
   display: flex;
   position: relative;
   font-size: 1.5rem;

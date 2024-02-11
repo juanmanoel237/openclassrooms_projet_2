@@ -1,6 +1,5 @@
 .filters {
   max-width: 90%;
-  border-style: dotted;
   display: flex;
   align-items: center;
   gap: 10px;

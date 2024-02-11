@@ -15,9 +15,19 @@ ul li {
   margin: 0 30px;
 }
 
+.nav-link:hover {
+  border-top: 2px solid var(--main-color);
+}
+
 header img {
   width: 61px;
   height: 19px;
+}
+
+@media (max-width: 1024px) {
+  .nav-link:hover {
+    border-top: 2px solid var(--main-color);
+  }
 }
 
 @media (max-width: 767.98px) {
@@ -28,5 +38,9 @@ header img {
 
   header .logo {
     margin: 0 auto;
+  }
+
+  .nav-link:hover {
+    border-top: 2px solid var(--main-color);
   }
 }
