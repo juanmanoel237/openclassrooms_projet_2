@@ -5,9 +5,16 @@ header {
   align-items: center;
 }
 
+nav {
+  justify-content: space-between;
+  align-items: center;
+}
+
 ul {
   display: flex;
+  align-items: center;
   gap: 20px;
+  max-width: 100%;
 }
 
 ul li {
@@ -34,10 +41,6 @@ header img {
   header {
     display: flex;
     flex-direction: column;
-  }
-
-  header .logo {
-    margin: 0 auto;
   }
 
   .nav-link:hover {
