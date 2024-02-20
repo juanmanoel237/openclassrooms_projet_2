@@ -71,6 +71,9 @@
 }
 
 @media (max-width: 767.98px) {
+  .form-search {
+    margin: 20px;
+  }
   .search-title {
     justify-content: center;
     align-items: center;
@@ -87,6 +90,7 @@
   .search-input {
     margin: 0 auto;
     max-width: 100%;
+    font-size: 18px;
   }
 
   .search-label {

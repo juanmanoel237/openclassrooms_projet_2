@@ -3,6 +3,11 @@
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
+  header {
+    width: auto;
+    padding: 0px 0px 44px 70px;
+  }
+
   .hebergements-and-populaires {
     display: flex;
     flex-direction: column;
