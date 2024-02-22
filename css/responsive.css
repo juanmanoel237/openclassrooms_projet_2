@@ -45,4 +45,26 @@
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
+  .hebergements-and-populaires {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 0;
+  }
+
+  .populaires {
+    width: 100%;
+    height: 90%;
+    margin-left: 0px;
+    margin-top: 17px;
+    padding-top: 28px;
+  }
+
+  .populaires-cards {
+    grid-template-columns: 1fr;
+    grid-template-rows: 130px 130px 130px;
+  }
+
+  .populaires-cards a {
+    width: 33%;
+  }
 }

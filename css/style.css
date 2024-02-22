@@ -7,6 +7,10 @@
   --main-color: #0065fc;
   --main-bg-color: #f2f2f2;
   --filter-bg-color: #deebff;
+  /*--filter-border-color: #d9d9d9;
+  --filter-button-bg-color: #ffffff;
+
+  --card-bg-color: #ffffff;*/
 }
 
 .fa-solid {
@@ -80,12 +84,6 @@ a {
 .populaires {
   width: 32%;
 }
-
-/*.populaires-cards {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-}*/
 
 .populaires-title {
   display: flex;

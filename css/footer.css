@@ -1,4 +1,8 @@
-footer {
+.footer-heb {
+  margin-top: 0;
+}
+
+.foot-low {
   display: flex;
   gap: 200px;
   margin-top: 50px;

@@ -1,53 +1,60 @@
-.search-title {
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
-}
-
-.search-title h2 {
-  padding-top: 40px;
-  font-size: 22px;
-}
-
-.search-title p {
-  padding-top: 5px;
+.search {
+  border-style: dotted;
+  flex-basis: 100%;
+  margin-bottom: 30px;
 }
 
 .form-search {
   display: flex;
-  align-items: center;
-  margin: 20px 0;
+  flex-direction: column;
+  gap: 35px;
 }
 
-.search-input {
+.form-header {
   display: flex;
-  position: relative;
-  font-size: 1.5rem;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-header p {
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.form-title {
+  margin-bottom: 5px;
+  font-size: 22px;
   font-weight: 700;
-  max-width: 35%;
+}
+
+.group-input {
+  position: relative;
+  display: flex;
+  height: 49px;
+  font-size: 1.8rem;
+  font-weight: 700;
 }
 
 .search-label {
-  padding: 13px;
-  font-size: 20px;
-  background-color: #f2f2f2;
-  border: 1px solid #f2f2f2;
-  border-radius: 15px 0px 0px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  background-color: var(--main-bg-color);
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
 }
 
-.input-search {
-  font-size: 20px;
-  font-weight: 700;
-  text-align: center;
-  padding: 13px;
-  border: 1px solid #f2f2f2;
+.search-label .icon {
+  color: black;
+}
+
+.search-input {
+  padding: 15px;
   border: 1px solid var(--main-bg-color);
-}
-
-.button-search-icon {
-  display: none;
-  color: #ffffff;
-  font-size: 1px;
+  font-size: 17px;
+  font-weight: 700;
 }
 
 .button-search {
@@ -57,17 +64,31 @@
   border: 1px solid var(--main-color);
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  font-size: 18px;
-  font-weight: 700;
   padding: 0 24px;
 }
 
+.button-search-icon {
+  display: none;
+}
+
+.button-search-icon .icon {
+  color: white;
+}
+
 .button-search-text {
-  background-color: #0065fc;
-  color: #ffffff;
-  font-size: 20px;
+  display: inline-block;
   font-weight: 700;
-  border: 1px solid #0065fc;
+  font-size: 17px;
+}
+
+@media (max-width: 1024px) {
+  .form-header {
+    padding-left: 0;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-bottom: 0;
+  }
 }
 
 @media (max-width: 767.98px) {
@@ -112,6 +133,6 @@
   /* Afficher l'icône */
   .button-search-icon {
     display: inline-block;
-    font-size: 15px;
+    font-size: 17px;
   }
 }
