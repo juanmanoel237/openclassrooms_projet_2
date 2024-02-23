@@ -70,6 +70,7 @@
     flex-direction: column;
     align-items: center;
   }
+
   .hebergements .cards {
     display: flex;
     flex-direction: column;
@@ -77,10 +78,10 @@
   }
 
   .hebergement-card {
-    width: 80%;
+    width: 100%;
     box-shadow: none;
   }
   .hebergement-card .card-img {
-    height: 40%;
+    aspect-ratio: 16/9;
   }
 }
