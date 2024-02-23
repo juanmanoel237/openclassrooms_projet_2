@@ -1,63 +1,79 @@
 .l-header {
   border-style: dotted;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
-  align-items: center;
 }
 
 .brand {
   border-style: dotted;
   display: flex;
-  padding: 30px, 50px, 30px, 50px;
-  gap: 10px;
+  align-items: center;
 }
 
 .logo {
   border-style: dotted;
+  width: 61.09px;
   height: 19px;
 }
 
-.header-menu {
+nav ul {
   border-style: dotted;
   display: flex;
-  padding: 0px, 50px, 0px, 50px;
-  gap: 60px;
-  list-style: none;
+  align-items: end;
+  flex-direction: row;
+  height: 100px;
 }
 
-.header-menu .nav-link {
-  display: block;
-  border-top: 2px solid transparent;
+nav li {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 150px;
+  height: 100%;
 }
 
-.header-menu .nav-link:hover {
-  border-top: 2px solid var(--main-color);
-  color: var(--main-color);
+nav li a {
+  text-decoration: none;
+  font: 400 16px "Raleway", sans-serif;
+  color: var(--black);
+}
+
+nav li a:hover::before {
+  content: "";
+  width: 0%;
+  height: 2px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+nav li a:hover::before {
+  background-color: var(--main-color);
+  width: 100%;
 }
 
 @media (max-width: 1024px) {
 }
 @media (max-width: 767.98px) {
-  header {
-    padding: 20px 0 0 0;
+  .l-header {
     flex-direction: column;
+    align-items: center;
   }
 
-  header img {
+  .brand {
+    margin-top: 21px;
+    margin-bottom: 38px;
   }
 
-  nav {
-    text-align: center;
+  nav ul {
     width: 100%;
+    height: 50px;
   }
 
-  .nav-link {
-    margin: auto;
-    text-align: center;
+  nav ul li {
     width: 50%;
-  }
-
-  .nav-link:hover {
-    border-top: 2px solid var(--main-color);
   }
 }

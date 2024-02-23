@@ -1,84 +1,64 @@
-.search {
-  border-style: dotted;
-  flex-basis: 100%;
-  margin-bottom: 30px;
-}
-
-.form-search {
-  display: flex;
-  flex-direction: column;
-  gap: 35px;
-}
-
-.form-header {
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-  gap: 8px;
+.form-header h2 {
+  font: 700 22px "Raleway", sans-serif;
+  margin: 53px 0 8px 0px;
 }
 
 .form-header p {
-  margin-top: 5px;
-  margin-bottom: 0;
+  font: 400 16px "Raleway", sans-serif;
+  margin-bottom: 20px;
 }
 
-.form-title {
-  margin-bottom: 5px;
-  font-size: 22px;
-  font-weight: 700;
+form {
+  margin-bottom: 32px;
 }
 
-.group-input {
-  position: relative;
+.input-search {
   display: flex;
-  height: 49px;
-  font-size: 1.8rem;
-  font-weight: 700;
+  width: 418px;
 }
 
-.search-label {
+.input-search input {
+  border: 1px solid var(--main-bg-color);
+}
+
+#search-bar-icon {
+  fill: black;
+  width: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 50px;
+  border-radius: 15px 0 0 15px;
   background-color: var(--main-bg-color);
-  border-top-left-radius: 15px;
-  border-bottom-left-radius: 15px;
 }
 
-.search-label .icon {
-  color: black;
+.input-search input {
+  font: 700 18px "Raleway", sans-serif;
+  border: none;
+  outline: none;
+  width: 60%;
+  border: none;
+  padding-left: 17px;
 }
 
-.search-input {
-  padding: 15px;
-  border: 1px solid var(--main-bg-color);
-  font-size: 17px;
-  font-weight: 700;
+.input-search input::placeholder {
+  align-self: center;
 }
 
-.button-search {
-  cursor: pointer;
-  color: #ffffff;
-  background-color: var(--main-color);
-  border: 1px solid var(--main-color);
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
-  padding: 0 24px;
-}
-
-.button-search-icon {
+.search-bar-button i {
   display: none;
 }
 
-.button-search-icon .icon {
+.search-bar-button {
+  font: 700 18px "Raleway", sans-serif;
   color: white;
+  background-color: var(--main-color);
+  padding: 14px 16px 14px 16px;
+  border: none;
+  border-radius: 0px 15px 15px 0px;
 }
 
-.button-search-text {
-  display: inline-block;
-  font-weight: 700;
-  font-size: 17px;
+.search-bar-button:hover {
+  cursor: pointer;
 }
 
 @media (max-width: 1024px) {
@@ -92,13 +72,29 @@
 }
 
 @media (max-width: 767.98px) {
-  .form-search {
-    margin: 20px;
+  .search {
+    margin: 0px 20px;
   }
-  .search-title {
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+
+  form {
+    width: 100%;
+  }
+
+  #search-bar-icon {
+    display: block;
+  }
+
+  .search-bar-button {
+    display: none;
+  }
+
+  .input-search {
+    width: 100%;
+  }
+
+  .input-search input {
+    font-size: 16px;
+    width: 100%;
   }
 
   .search-info {

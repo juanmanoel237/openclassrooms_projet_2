@@ -1,57 +1,69 @@
 .filters {
   display: flex;
+  flex-direction: row;
   align-items: center;
-  gap: 15px;
+  margin-bottom: 35px;
+  gap: 25px;
 }
 
-.filters .form-title {
-  font-size: 17px;
+.filters .filter-title {
+  font: 700 18px "Raleway", sans-serif;
 }
 
 .group-filters {
   display: flex;
-  gap: 15px;
-  font-size: 18px;
-  font-weight: 700;
-}
-
-.input-filter {
-  display: none;
-}
-
-.label-filter {
-  display: flex;
   align-items: center;
-  gap: 10px;
-  cursor: pointer;
-  height: 50px;
-  border: 2px solid #d9d9d9;
-  border-radius: 30px;
-  padding: 0 18px;
+  width: 80%;
+  gap: 25px;
 }
 
-.label-filter:hover,
-.input-filter:checked ~ /*.label-filter*/ {
-  background-color: var(--filter-bg-color);
-}
-
-.search-footer {
-  border-style: dotted;
-  margin-top: 0;
-  margin-bottom: 10px;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.circle-info {
+.filter {
+  background-color: white;
   display: flex;
   align-items: center;
   justify-content: center;
+  font: 700 15px "Raleway", sans-serif;
+  border: 2px solid;
+  border-radius: 25px;
+  height: 45px;
+  padding: 4px 15px;
+  cursor: pointer;
+}
+
+.filter:active {
+  transform: translateY(2px);
+}
+
+.filter .icon {
+  color: var(--main-color);
+  font-size: 18px;
+  margin-right: 8px;
+}
+
+.filter:hover {
+  background-color: lightblue;
+}
+
+.info-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 5px;
+}
+
+.info-bar p {
+  font: 400 16px "Raleway", sans-serif;
+}
+
+.info-icon .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 100%;
   border: 2px solid var(--main-bg-color);
-  border-radius: 50%;
-  width: 1.75em;
-  height: 1.75em;
+  margin-right: 11px;
 }
 
 @media (max-width: 1024px) {

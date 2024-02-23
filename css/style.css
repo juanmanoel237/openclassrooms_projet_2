@@ -7,10 +7,7 @@
   --main-color: #0065fc;
   --main-bg-color: #f2f2f2;
   --filter-bg-color: #deebff;
-  /*--filter-border-color: #d9d9d9;
-  --filter-button-bg-color: #ffffff;
-
-  --card-bg-color: #ffffff;*/
+  --black: rgba(0, 0, 0, 1);
 }
 
 .fa-solid {
