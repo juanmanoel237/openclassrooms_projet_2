@@ -1,24 +1,24 @@
-.l-header {
-  border-style: dotted;
+.header {
+  margin: 0px 55px 37px 55px;
+}
+
+nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
 .brand {
-  border-style: dotted;
   display: flex;
   align-items: center;
 }
 
 .logo {
-  border-style: dotted;
   width: 61.09px;
   height: 19px;
 }
 
 nav ul {
-  border-style: dotted;
   display: flex;
   align-items: end;
   flex-direction: row;
@@ -56,15 +56,36 @@ nav li a:hover::before {
 }
 
 @media (max-width: 1024px) {
+  .header {
+    margin: 0px 30px 37px 30px;
+  }
 }
 @media (max-width: 767.98px) {
-  .l-header {
-    flex-direction: column;
+  .header {
+    display: flex;
+    justify-content: center;
     align-items: center;
   }
-
   nav {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .brand {
+    margin-top: 21px;
+    margin-bottom: 38px;
+  }
+
+  nav ul {
     width: 100%;
-    margin: auto;
+    height: 50px;
+  }
+  nav ul li {
+    width: 50%;
+    margin-right: 40px;
+  }
+  nav li a:hover::before {
+    top: 100%;
   }
 }

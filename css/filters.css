@@ -3,7 +3,7 @@
   flex-direction: row;
   align-items: center;
   margin-bottom: 35px;
-  gap: 25px;
+  gap: 30px;
 }
 
 .filters .filter-title {
@@ -13,8 +13,8 @@
 .group-filters {
   display: flex;
   align-items: center;
-  width: 80%;
-  gap: 25px;
+  width: 100%;
+  gap: 30px;
 }
 
 .filter {
@@ -94,7 +94,7 @@
   .filters h2 {
     display: flex;
     flex-direction: row-reverse;
-    border-style: dotted;
+
     margin-bottom: 0;
     align-items: flex-start;
   }
