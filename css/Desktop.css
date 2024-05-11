@@ -1,9 +1,11 @@
 /***************** HEADER ************/
 .header {
-  margin: 0px 55px 37px 55px;
+  /*margin: 0px 55px 37px 55px;*/
+  margin: 0px;
 }
 
 nav {
+  /*border-style: dotted;*/
   display: flex;
   flex-direction: row;
   justify-content: space-between;
