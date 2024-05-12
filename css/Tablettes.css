@@ -1,11 +1,13 @@
 @media (max-width: 1024px) {
   /*********HEADER********/
 
-  .header {
-    width: 90%;
+  .header-nav{
     margin: 0px;
   }
 
+  .navbar{
+    margin: 0;
+  }
   /***************** SEARCH & INFO ******/
   .form-header {
     padding-left: 0;

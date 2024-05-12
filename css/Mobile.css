@@ -1,45 +1,61 @@
 @media (max-width: 767.98px) {
-  /*****************HEADER***********/
 
-  .header {
+  body {
+    margin: 0;
+  }
+  /*****************HEADER***********/
+  .header-nav{
+    margin-bottom: 0;
+  }
+
+  .navbar{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0 0px 0;
+    align-items: center;
+  }
+
+  #logo{
+    margin-bottom: 30px;
+    margin-right: 65px;
+  }
+
+  .navbar ul {
+    padding-bottom: 0;
+    margin-right: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 0;
-  }
-  nav {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .brand {
-    margin-top: 21px;
-    margin-bottom: 20px;
-    margin-right: 20px;
-  }
-
-  nav ul {
     width: 100%;
-    height: 50px;
+    height: 100%;
+    gap: 75px;
+    
   }
-  nav ul li {
+
+  .navbar li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 50%;
-    margin-right: 50px;
+    margin: 0;
+    padding: 0;
+    border-bottom: 3px solid #f2f2f2;
   }
-  nav li a:hover::before {
-    top: 100%;
+
+  .navbar li a {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    border-top: 0;
+  }
+
+  .navbar li a:hover {
+    border-top: 0;
+    border-bottom: 3px solid var(--main-color);
   }
 
   /***************SEARCH & INFO**********/
-
-  .search {
-    margin: 0px 20px;
-  }
-
-  form {
-  }
-
   .input-search {
     width: 100%;
   }
@@ -60,7 +76,7 @@
   /***************FILTERS************/
 
   .filters {
-    margin-top: 34px;
+    margin-top: 30px;
     gap: 15px;
     flex-direction: column;
     align-items: flex-start;
@@ -69,7 +85,6 @@
   .filters h2 {
     display: flex;
     flex-direction: row-reverse;
-
     margin-bottom: 0;
     align-items: flex-start;
   }
