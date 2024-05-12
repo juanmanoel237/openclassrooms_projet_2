@@ -1,9 +1,9 @@
 @media (max-width: 767.98px) {
 
-  .main-container {
-    padding: 0 15px;
-    
+  .main-container{
+    padding: 0 6px;
   }
+  
   /*****************HEADER***********/
   .header-nav{
     padding: 0;
@@ -114,18 +114,18 @@
     display: flex;
     flex-direction: column-reverse;
     margin-top: 0;
+    border-radius: unset;
+    width: 100%;
   }
 
   .populaires {
     width: 100%;
     height: 90%;
-    margin-left: 0px;
-    margin-top: 17px;
-    padding-top: 28px;
   }
 
   #populaires{
-    border-radius: 0px;
+    border-radius: unset;
+    margin: 0;
   }
 
   .populaires-cards {
@@ -138,14 +138,8 @@
   }
 
   #hebergements {
-    width: 100%;
-    margin-top: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0 20px;
-    border-radius: 0px;
-    box-sizing: border-box;
+  background-color: unset;
+  margin-top: 20px;
   }
 
   .hebergements .cards {
@@ -154,10 +148,6 @@
     align-items: center;
   }
 
-  .hebergement-card {
-    width: 100%;
-    box-shadow: none;
-  }
   .hebergement-card .card-img {
     aspect-ratio: 16/9;
   }
