@@ -48,6 +48,7 @@
   width: 100%;
 }
 
+
 /****************** SEEARCH & INFO***********/
 
 .form-header h2 {
@@ -146,6 +147,12 @@ form {
   padding: 4px 15px;
   cursor: pointer;
 }
+
+.filter:active,
+.filter:focus {
+  background-color: lightblue; 
+}
+
 
 .filter:active {
   transform: translateY(2px);
