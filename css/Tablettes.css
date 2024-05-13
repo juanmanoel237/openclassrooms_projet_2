@@ -96,12 +96,21 @@
 
   /************FOOTER****************/
 
-  .foot-low {
+  /*.foot-low {
     display: flex;
     gap: 100px;
     margin-top: 80px;
     background-color: var(--main-bg-color);
-    padding-left: 15px;
+    padding-right: 30px;
     width: 100%;
+  }*/
+  .foot-low {
+    display: flex;
+    gap: 20px;
   }
+  
+  .footer-comp {
+    flex: 1;
+  }
+  
 }

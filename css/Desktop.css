@@ -303,10 +303,22 @@ form {
   margin-top: 0;
 }
 
-.foot-low {
+/*.foot-low {
   display: flex;
   gap: 200px;
   margin-top: 50px;
   background-color: var(--main-bg-color);
   padding-left: 15px;
+}*/
+
+.foot-low {
+  margin-top: 50px;
+  background-color: var(--main-bg-color);
+  display: flex;
+  gap: 20px;
+}
+
+.footer-comp {
+  padding-left: 10px;
+  flex: 1;
 }
