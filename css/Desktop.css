@@ -141,7 +141,7 @@ form {
   align-items: center;
   justify-content: center;
   font: 700 15px "Raleway", sans-serif;
-  border: 2px solid;
+  border: 2px solid #D9D9D9;
   border-radius: 25px;
   height: 45px;
   padding: 4px 15px;
