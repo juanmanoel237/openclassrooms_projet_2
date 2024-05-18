@@ -301,14 +301,6 @@ form {
   margin-top: 0;
 }
 
-/*.foot-low {
-  display: flex;
-  gap: 200px;
-  margin-top: 50px;
-  background-color: var(--main-bg-color);
-  padding-left: 15px;
-}*/
-
 .foot-low {
   margin-top: 50px;
   background-color: var(--main-bg-color);

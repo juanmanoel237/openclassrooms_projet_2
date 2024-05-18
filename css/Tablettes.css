@@ -37,11 +37,6 @@
 
   /************ HEBERGEMENTS & POPULAIRES **********/
 
-  header {
-    width: auto;
-    padding: 0px 0px 44px 70px;
-  }
-
   .hebergements-and-populaires {
     display: flex;
     flex-direction: column;
@@ -112,5 +107,4 @@
   .footer-comp {
     flex: 1;
   }
-  
 }
