@@ -63,53 +63,65 @@
 
 form {
   margin-bottom: 32px;
-}
-
-.input-search {
   display: flex;
-  width: 418px;
+  align-items: center;
+  justify-content: space-between;
+  width: 380px;
+  border: solid 1px var(--main-bg-color);
+  border-radius: 15px;
+  overflow: hidden;
 }
 
+form .search-icon{
+  height: 50px;
+  width: 49px;
+  background-color: var(--main-bg-color);
+  border: solid 1px var(--main-bg-color);
+  border-radius: 15px 0px 0px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-#search-bar-icon {
-  fill: black;
-  width: 50px;
+form #search-bar{
+  border: none;
+  padding: 0 24px;
+  width: 100%;
+  height: 100%;
+  color: black;
+  font-size: 17px;
+  font-weight: 700;
+  box-sizing: border-box;
+}
+
+form #search-bar::placeholder{
+  color: black;
+  font-weight: 700;
+  background-color: white;
+}
+
+form .txt-button{
+  width: 132px;
+  height: 49px;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 15px 0 0 15px;
-  background-color: var(--main-bg-color);
-}
-
-.input-search input {
-  font: 700 18px "Raleway", sans-serif;
-  color: #000000;
-  border: 1px solid #D9D9D9;
-  outline: none;
-  width: 60%;
-  padding-left: 17px;
-}
-
-.input-search input::placeholder {
-  align-self: center;
-  color: #000000;
-}
-
-.search-bar-button i {
-  display: none;
-}
-
-.search-bar-button {
-  font: 700 18px "Raleway", sans-serif;
-  color: white;
+  border-radius: 0 15px 15px 0;
+  border: solid 1px var(--main-color);
   background-color: var(--main-color);
-  padding: 14px 16px 14px 16px;
-  border: none;
-  border-radius: 0px 15px 15px 0px;
+  padding: 15px 8px;
+  color: var(--main-bg-color);
+  font-size: 17px;
+  font-weight: 700;
 }
 
-.search-bar-button:hover {
+form .txt-button:hover,
+.glass-button:hover {
   cursor: pointer;
+}
+
+form .glass-button {
+  display: none;
 }
 
 /********************* FILTRES ************/

@@ -66,28 +66,36 @@
     padding: 0 10px;
   }
 
-  .input-search {
-    width: 100%;
+  form{
+    margin-left: 10px;
+    display: flex;
+    width: 95%;
+    border-radius: 20px;
   }
 
-  .search-bar-button span {
+  form .txt-button {
     display: none;
+}
+  
+  form .glass-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--main-color);
+    border: solid 1px var(--main-color);
+    width: 50px;
+    height: 49px;
+    border-radius: 15px;
+    position: absolute;
+    right: 20px;
+    padding: 0;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   }
 
-  .search-bar-button {
-    border-radius: 1rem;
-  }
-
-  .search-bar-button i {
-    display: inline-block;
+  form .glass-button .fa-solid {
     color: white;
-
   }
 
-  .input-search input {
-    font-size: 16px;
-    width: 100%;
-  }
   /***************FILTERS************/
 
   .filters {

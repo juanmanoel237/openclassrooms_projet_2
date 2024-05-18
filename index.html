@@ -47,15 +47,13 @@
           </h2>
           <p>En plein centre-ville ou en pleine nature</p>
         </header>
-        <form action="GET">
-          <div class="input-search">
-            <i id="search-bar-icon" class="fa fa-location-dot"></i>
-            <input type="text" placeholder="Marseille, France" />
-            <button type="submit" class="search-bar-button">
-              <span>Rechercher</span>
-              <i class="fa-solid fa-magnifying-glass"></i>
-            </button>
-          </div>
+        <form id="recherche" action="#" method="get">
+          <label for="search-bar">
+            <i class="search-icon fas fa-map-marker-alt"></i>
+          </label>
+          <input id="search-bar" type="search" name="search" placeholder="Marseille, France" />
+          <button class="txt-button">Rechercher</button>
+          <button class="glass-button"><i class="fa-solid fa-magnifying-glass fa-lg"></i></button>
         </form>
         <div class="filters">
           <h2 class="filter-title">Filtres</h2>
@@ -66,15 +64,15 @@
             </button>
             <button class="filter">
               <i class="icon fa-solid fa-person"></i>
-              Économique
+              Familial
             </button>
             <button class="filter">
               <i class="icon fa-solid fa-heart"></i>
-              Économique
+              Romantique
             </button>
             <button class="filter">
               <i class="icon fa-solid fa-fire"></i>
-              Économique
+              Nos pépites
             </button>
           </div>
         </div>
